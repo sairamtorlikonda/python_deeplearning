@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c676a465-48d1-4527-8588-add328fe2a57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
-    </list>
+    <list default="true" id="c676a465-48d1-4527-8588-add328fe2a57" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1495">
-              <caret line="104" column="86" lean-forward="true" selection-start-line="104" selection-start-column="86" selection-end-line="104" selection-end-column="86" />
+            <state relative-caret-position="400">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -204,8 +202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="104" column="86" lean-forward="true" selection-start-line="104" selection-start-column="86" selection-end-line="104" selection-end-column="86" />
+        <state relative-caret-position="400">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
