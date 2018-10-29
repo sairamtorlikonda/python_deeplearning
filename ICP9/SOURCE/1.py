@@ -4,9 +4,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import keras
-import matplotlib
-matplotlib.use("TkAgg")
-from matplotlib import pyplot as plt
 from keras import metrics
 from keras import regularizers
 from keras.models import Sequential
@@ -17,7 +14,6 @@ from keras.callbacks import TensorBoard, EarlyStopping, ModelCheckpoint
 from keras.utils import plot_model
 from keras.models import load_model
 from sklearn.model_selection import train_test_split
-
 df = pd.read_csv('kc_house_data.csv')
 df['sale_yr'] = pd.to_numeric(df.date.str.slice(0, 4))
 df['sale_month'] = pd.to_numeric(df.date.str.slice(4, 6))
@@ -83,7 +79,7 @@ def basic_model_2(x_size, y_size):
     return(t_model)
 model = basic_model_1(arr_x_train.shape[1], 1)
 model.summary()
-epochs = 500
+epochs = 20
 batch_size =128
 history = model.fit(arr_x_train, arr_y_train,
     batch_size=batch_size,
